@@ -9,12 +9,6 @@
   --primary-theme-second: rgb(46, 134, 222, 0.8);
   --secondary-black: #2c3e50;
   --font-color: black;
-
-  --clr-primary: #fc307b;
-  --clr-accent: #2c92ef;
-
-  --fs-700: 3.5rem;
-  --fs-400: 1.25rem;
 }
 
 ::selection {
@@ -57,5 +51,6 @@ html {
   scroll-behavior: smooth;
   font-family: Roboto, "sans-serif";
   --webkit-font-smoothing: antialiased;
-  background-color: #f7f1e3;
+  background-color: #eee;
+  overflow-x: hidden;
 }
