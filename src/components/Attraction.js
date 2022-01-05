@@ -41,8 +41,7 @@ export default Attraction;
 
 const AttractionStyled = styled.div`
   position: relative;
-
-  background-color: rgba(50, 80, 100, 0.1);
+  background-color: #ccc;
   padding: 100px 0;
 `;
 const CardContainer = styled.div`
@@ -53,16 +52,10 @@ const CardContainer = styled.div`
 `;
 const Card = styled.div`
   width: 300px;
-  background-color: #fff;
   border-radius: 5px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  /* From https://css.glass */
-  background: rgba(243, 232, 232, 0.15);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(6.3px);
-  -webkit-backdrop-filter: blur(6.3px);
-  border: 1px solid rgba(243, 232, 232, 0.3);
+  background-color: #fafafa;
+  border-radius: 5px;
 `;
 const CardTitle = styled.div`
   font-size: 1.2rem;

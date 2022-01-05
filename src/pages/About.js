@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import React from "react";
 import styled from "styled-components";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import { Container } from "../styles/globalStyled";
 
@@ -58,6 +59,20 @@ const About = () => {
               <li>Presentation Techniques</li>
               <li></li>
             </motion.ul>
+
+            <motion.h4
+              animate={{ y: 0, opacity: 1 }}
+              initial={{ y: 72, opacity: 0 }}
+              transition={{ delay: 0.8, ease: "easeOut" }}
+            >
+              Also in the workshops of The OGMA members are made aware of the
+              difference between Communication skills and the knowledge of the
+              language, also organising some ice-breaking events to enthusiast
+              members and open them up so that they take part in events with
+              their own will and giving them the opportunity to come forth and
+              present themselves (via public speaking) and eliminate
+              Glossophobia.
+            </motion.h4>
           </motion.div>
         </div>
       </Container>
